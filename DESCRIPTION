@@ -1,0 +1,26 @@
+Package: capnet
+Type: Package
+Title: Contribution-Capped Elastic Net Regularization
+Version: 0.4.0
+Date: 2026-09-21
+Authors@R: person("Harry", "He", email = "zih028@ucsd.edu", role = c("aut", "cre", "cph"))
+Copyright: 2026 Harry He
+Description: Implements contribution-capped regularization to directly bound
+    per-feature contributions in predictive models. Includes Orthant-Wise Limited-memory 
+    Quasi Newton (OWL-QN) optimization, cross-validation, walk-forward fitting and 
+    prediction, and plotting utilities.
+URL: https://github.com/harryziyuhe/capnet
+BugReports: https://github.com/harryziyuhe/capnet/issues
+Depends: R (>= 4.1)
+Imports: rlang, lbfgs, ggplot2, xts, zoo, Matrix, stats, parallel
+Suggests: knitr, rmarkdown, xtable, glmnet, testthat (>= 3.0.0)
+License: GPL (>= 2)
+VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-14 20:27:00 UTC; ziyuhe
+Author: Harry He [aut, cre, cph]
+Maintainer: Harry He <zih028@ucsd.edu>
